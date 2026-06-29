@@ -1,0 +1,91 @@
+.hero {
+  min-height: 360px;
+  padding: 30px 5%;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(3, 7, 20, 0.98) 0%,
+      rgba(3, 7, 20, 0.9) 35%,
+      rgba(3, 7, 20, 0.25) 68%
+    ),
+    url('/assets/hero-pos1.png');
+  background-size: cover;
+  background-position: right center;
+  border-bottom: 1px solid rgba(0, 217, 255, 0.15);
+}
+
+.hero-content {
+  width: 55%;
+  max-width: 720px;
+}
+
+.tag {
+  color: #00e5ff;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: clamp(36px, 4vw, 52px);
+  line-height: 1.05;
+  margin: 0;
+  font-weight: 900;
+}
+
+h1 span {
+  display: block;
+  background: linear-gradient(90deg, #00c8ff, #ff25d7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description {
+  max-width: 620px;
+  font-size: 20px;
+  line-height: 1.45;
+  color: #e6eef8;
+}
+
+.actions {
+  display: flex;
+  gap: 18px;
+  margin-top: 25px;
+}
+
+button {
+  border-radius: 12px;
+  padding: 12px 34px;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.primary {
+  border: none;
+  background: linear-gradient(90deg, #007bff, #db00ff);
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #ff25d7;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-image {
+    margin-top: 25px;
+    width: 45%;
+  }
+}

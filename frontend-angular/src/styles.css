@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+app-root {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  min-height: 100%;
+  background: #030714 !important;
+}
+
+body {
+  overflow-x: hidden;
+}

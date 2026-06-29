@@ -1,0 +1,121 @@
+.services-section {
+  background: #0d1730;
+
+  border: 1px solid rgba(0, 255, 255, 0.12);
+
+  border-radius: 18px;
+
+  padding: 35px;
+
+  height: 100%;
+}
+
+.services-title {
+  text-align: center;
+
+  margin-bottom: 30px;
+}
+
+.services-title h2 {
+  color: white;
+
+  font-size: 34px;
+
+  margin-bottom: 5px;
+}
+
+.services-title p {
+  color: #9da9c4;
+
+  font-size: 15px;
+}
+
+.service-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+.service-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  padding: 18px;
+
+  border-radius: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+
+.service-item:hover {
+  background: #122247;
+
+  transform: translateX(5px);
+
+  border-color: #00d5ff;
+}
+
+.service-icon {
+  width: 55px;
+
+  height: 55px;
+
+  border-radius: 14px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 26px;
+}
+
+.blue {
+  background: rgba(0, 180, 255, 0.15);
+}
+
+.cyan {
+  background: rgba(0, 255, 255, 0.15);
+}
+
+.purple {
+  background: rgba(156, 39, 255, 0.18);
+}
+
+.pink {
+  background: rgba(255, 0, 170, 0.18);
+}
+
+.service-info {
+  flex: 1;
+}
+
+.service-info h3 {
+  color: white;
+
+  margin-bottom: 5px;
+
+  font-size: 18px;
+}
+
+.service-info p {
+  color: #bfc7d9;
+
+  font-size: 14px;
+}
+
+.arrow {
+  color: #00d5ff;
+
+  font-size: 30px;
+}
