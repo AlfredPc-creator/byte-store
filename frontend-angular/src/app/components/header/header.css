@@ -9,13 +9,13 @@
 }
 
 .brand img {
-  width: 350px;
+  width: 250px;
   height: auto;
   display: block;
 }
 
 .nav {
-  height: 20px;
+  height: 20esta px;
   display: flex;
   gap: 45px;
 }
@@ -51,5 +51,33 @@
 
   .header {
     padding: 0 25px;
+  }
+}
+
+.menu-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid rgba(0, 217, 255, 0.4);
+  color: white;
+  font-size: 24px;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+@media (max-width: 1050px) {
+  .nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .demo-btn {
+    display: none;
   }
 }
